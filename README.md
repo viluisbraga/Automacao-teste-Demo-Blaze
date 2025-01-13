@@ -15,15 +15,17 @@
 
 ## Descrição do Projeto
 
-Este projeto tem como objetivo a automação de testes do site **Demo Blaze**. Utilizamos a linguagem de programação Python junto com o VSCode, Selenium, Selenium WebDriver e Pytest. Todos os pacotes foram instalados em um ambiente virtual para a realização dos testes.
+Este projeto visa a automação de testes do site Demo Blaze utilizando Python, uma das linguagens mais populares e versáteis do mercado. O desenvolvimento foi realizado no VSCode, com o auxílio de poderosas ferramentas como Selenium e Selenium WebDriver para interação com a interface web. O Pytest foi utilizado para garantir que os testes fossem executados de forma eficiente e bem organizados, facilitando a automação e assegurando a qualidade do processo de teste.
+
+Para garantir um ambiente controlado e livre de conflitos, todos os pacotes necessários foram instalados dentro de um ambiente virtual, proporcionando uma execução de testes limpa e eficiente.
 
 ## Tecnologias Utilizadas
 
-- Python
-- VSCode
-- Selenium
-- Selenium WebDriver
-- Pytest
+- ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+- ![VSCode](https://img.shields.io/badge/VSCode-1.58-blue)
+- ![Selenium](https://img.shields.io/badge/Selenium-3.141.0-green)
+- ![Selenium WebDriver](https://img.shields.io/badge/Selenium%20WebDriver-3.141.0-yellow)
+- ![Pytest](https://img.shields.io/badge/Pytest-6.2.4-yellow)
 
 ## Estrutura do Projeto
 
@@ -55,21 +57,25 @@ O projeto segue o padrão PageObjects e está organizado da seguinte forma:
 │   └── Scripts
 ├── conftest.py
 ├── pytest.ini
-└── README.md
+├── README.md
+└── requirements.txt
 ```
 
 ## Configuração do Ambiente
 
 1. Clone o repositório:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone <https://github.com/viluisbraga/Automacao-teste-Demo-Blaze.git>
     ```
-2. Crie e ative um ambiente virtual:
+2. Crie um ambiente virtual:
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # No Windows use `venv/Scripts/Activate.ps1`
+    python -m venv venv 
     ```
-3. Instale as dependências:
+3. Ative um ambiente virtual:
+    ```bash
+   source venv/bin/activate  # No Windows use `venv/Scripts/Activate.ps1`
+    ```
+4. Instale as dependências:
     ```bash
     pip install -r requirements.txt
     ```
@@ -80,10 +86,10 @@ Para executar todos os testes que existem no sistema, utilize o comando:
 ```bash
 pytest -v
 ```
-Para executar testes chamando os markers existentes no cenários de testes utilize o comando:
+Para executar testes chamando os markers existentes utilize o comando:
 
 ```bash
-pytest -v -m (Nome mark) exemplo: pytest -v -m login
+pytest -v -m (Nome mark) # exemplo: pytest -v -m login
 ```
 ## Cenários de Teste
 
@@ -112,9 +118,7 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 ## Contato
 
-- **Seu Nome** - [Seu Email](mailto:seu-email@example.com)
-- **LinkedIn** - [Seu LinkedIn](https://www.linkedin.com/in/seu-usuario)
+- **Feito por** [Vitor Braga](https://github.com/viluisbraga) - [Email](viluis60@gmail.com)
+- **LinkedIn** - [Meu LinkedIn](https://www.linkedin.com/in/vitor-luis-braga-7783a5211/)
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![Selenium](https://img.shields.io/badge/Selenium-3.141.0-green)
-![Pytest](https://img.shields.io/badge/Pytest-6.2.4-yellow)
+
