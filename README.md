@@ -17,6 +17,8 @@
 
 Este projeto visa a automação de testes do site Demo Blaze utilizando Python, uma das linguagens mais populares e versáteis do mercado. O desenvolvimento foi realizado no VSCode, com o auxílio de poderosas ferramentas como Selenium e Selenium WebDriver para interação com a interface web. O Pytest foi utilizado para garantir que os testes fossem executados de forma eficiente e bem organizados, facilitando a automação e assegurando a qualidade do processo de teste.
 
+Nos cenários de teste, a abordagem utilizada segue a metodologia BDD (Behavior-Driven Development), onde os testes são descritos de maneira a enfatizar o comportamento esperado das funcionalidades, facilitando a colaboração entre desenvolvedores, testadores e stakeholders.
+
 Para garantir um ambiente controlado e livre de conflitos, todos os pacotes necessários foram instalados dentro de um ambiente virtual, proporcionando uma execução de testes limpa e eficiente.
 
 ## Tecnologias Utilizadas
@@ -65,7 +67,7 @@ O projeto segue o padrão PageObjects e está organizado da seguinte forma:
 
 1. Clone o repositório:
     ```bash
-    git clone <https://github.com/viluisbraga/Automacao-teste-Demo-Blaze.git>
+    git clone: https://github.com/viluisbraga/Automacao-teste-Demo-Blaze.git
     ```
 2. Crie um ambiente virtual:
     ```bash
@@ -112,13 +114,12 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull re
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo para mais detalhes.
 
 ---
 
 ## Contato
-
-- **Feito por** [Vitor Braga](https://github.com/viluisbraga) - [Email](viluis60@gmail.com)
 - **LinkedIn** - [Meu LinkedIn](https://www.linkedin.com/in/vitor-luis-braga-7783a5211/)
 
-
+- **E-mail**: viluis60@gmail.com
+- **Feito por** [Vitor Braga](https://github.com/viluisbraga)
