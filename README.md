@@ -1,6 +1,6 @@
 # Projeto de Automação de Testes - Demo Blaze
 
-![Demo Blaze](https://www.demoblaze.com/bm.png)
+<img src="https://www.demoblaze.com/bm.png" alt="Demo Blaze"/>
 
 ## Índice
 
